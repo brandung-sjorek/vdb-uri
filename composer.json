@@ -15,9 +15,12 @@
     },
     "autoload": {
         "psr-0": {
-            "VDB\\Uri": "src/",
-            "VDB\\Uri\\Tests": "tests/"
+            "VDB\\Uri": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "autoload-dev": {
+        "psr-0": {
+            "VDB\\Uri\\Tests": "tests/"
+        }
+    }
 }
